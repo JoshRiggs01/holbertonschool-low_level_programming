@@ -1,0 +1,1 @@
+this is the readme file for 0x00hello world. in this directory i will be leaning c programming language
