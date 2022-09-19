@@ -2,7 +2,7 @@
 /**
  * main - this is void
  * printf - should print the given statement
- * return - will return 0
+ * Return: Always 0 (sucess)
 */
 int main(void)
 {
