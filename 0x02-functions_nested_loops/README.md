@@ -1,0 +1,1 @@
+read me file for 0x02 c functions and nested loops
