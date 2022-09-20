@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.c"
+#include "holberton.h"
 /**
  * print_alphabet - will print in lowercase
  * Retrun: Always 0
