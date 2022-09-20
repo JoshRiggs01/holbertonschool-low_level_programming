@@ -1,12 +1,12 @@
 #include <unistd.h>
-#include "_putchar.c"
+#include "_putchar.h"
 /**
  * main - prints _putchar
  * Return: Always 0
  */
 int main(void)
 {
-char word[4] = "Main";
+char word[8] = "_putchar";
 int i;
 
 for (i = 0; i < 9; i++)
