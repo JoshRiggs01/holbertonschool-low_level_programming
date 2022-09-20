@@ -1,6 +1,5 @@
 #include <unistd.h>
-#include <main.h>
-#include "_putchar"
+#include "holberton.h"
 /**
  * main - prints _putchar
  * Return: Always 0
