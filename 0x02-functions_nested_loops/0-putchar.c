@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-char word[8] = "_putchar";
+char word[4] = "Main";
 int i;
 
 for (i = 0; i < 9; i++)
