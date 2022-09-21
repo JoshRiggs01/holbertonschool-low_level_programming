@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int x;
-#include "_putchar.h"
+#include "_putchar.c"
 int main(void)
 {
   puts (test());
