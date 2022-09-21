@@ -3,7 +3,7 @@
  * _islower - checks for lowercase
  * main - check the code
  * @c: lowercase
- * Return - (0) for success (1) for fail
+ * Return:  (0) for success (1) for fail
  */
 int _islower(int c)
 {
