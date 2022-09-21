@@ -1,10 +1,6 @@
-#include <unistd.h>
-/**
- * main - prints _putchar
- */
-int x;
-#include "_putchar.c"
-int _putchar(void)
-{
-  puts (test());
-}
+#ifndef main_h
+#define main_h
+
+int _putchar(char c);
+
+#endif
