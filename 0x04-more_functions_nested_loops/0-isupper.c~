@@ -1,0 +1,15 @@
+#include "main.h"
+/**
+ *
+ *
+ *
+ */
+int _isupper(int c)
+{
+	int c = 'A';
+
+	if (_isupper(c))
+		_putchar (1);
+		else
+			_putchar(0);
+		 }
