@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-x=x
-git add . && git commit -m '$x' && git push
