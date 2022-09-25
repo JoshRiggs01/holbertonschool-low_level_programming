@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_number - prints number
+ * print_numbers - function that checks fo 1-9
  *
  * Return: Always (0)
  *
