@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_numbers - function that checks fo 1-9
+ * print_most__numbers - function that checks fo 1-9
  *
  * Return: Always (0)
  *
