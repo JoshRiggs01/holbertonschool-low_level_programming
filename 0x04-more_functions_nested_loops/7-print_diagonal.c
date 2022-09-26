@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_diagnal - print \ across terminal
+ * print_diagonal - print \ across terminal
  *@n: number of line to print
  * Return: Always 0
  */
