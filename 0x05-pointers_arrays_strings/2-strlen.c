@@ -4,6 +4,7 @@
  * @s: declaring *s for _strlen
  * Return: Always (x)
  */
+
 int _strlen(char *s)
 {
 int x;
