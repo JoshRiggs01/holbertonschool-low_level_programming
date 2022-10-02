@@ -1,35 +1,36 @@
 #include "holberton.h"
 /**
+ * cap_string - function to capitalize first letter of every word
+ * @s: string to be capitalized
  *
- *
+ * Return: a pointer to string
  */
 
 char *cap_string(char *s)
 {
-	int i;
+	int i = 0;
+	{
+		while (!(s[i] >= 'a' && s[i] <= 'z'))
+			i++;
 
-	for (i = 0; s[i] != '\0'; i++)
-	{
-		if (i == 0)
-		{
-			if ((s[i] >= 'a' && s[i] <= 'z'))
-				s[i] = s[i] - 32;
-			continue;
-		}
-		if (s[i] == ' ')
-		{
-			++i;
-			if (s[i] >= 'a' && s[i] <= 'z')
-		{
-			s[i] = s[i] - 32;
-			continue;
-		}
+		if (s[i - 1] == ' ' ||
+		    s[i - 1] == '\n' ||
+		    s[i - 1] == '{' ||
+		    s[i - 1] == '}' ||
+		    s[i - 1] == '(' ||
+		    s[i - 1] == ')' ||
+		    s[i - 1] == '"' ||
+		    s[i - 1] == '?' ||
+		    s[i - 1] == '\t' ||
+		    s[i - 1] == '!' ||
+		    s[i - 1] == '.' ||
+		    s[i - 1] == ';' ||
+		    s[i - 1] == ':' ||
+		    s[i - 1] == ',' ||
+		    i == 0)
+
+			s[i] -= 32;
+		i++;
 	}
-	else
-	{
-		if (s[i] >= 'A' && s[i] <= 'Z')
-			s[i] = s[i] + 32;
-	}
-	}
-	return (0);
+	return (s);
 }
