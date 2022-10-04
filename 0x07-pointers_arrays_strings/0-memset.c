@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * _memset: fills memory with constant bytes
+ * _memset - fills memory with constant bytes
  * @s: pointer to destination object
  * @b: value to be filed in
  * @n: number of bytes stores
+ *
  * Return: (s)
  */
 
