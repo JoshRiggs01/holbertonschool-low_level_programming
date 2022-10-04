@@ -1,18 +1,26 @@
 #include "main.h"
 /**
- *
- *
- *
+ * _strspn - function to scan string
+ * @s: string to be scanned
+ * @accept: characters to match
+ * Return: (i)
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	int len = 0;
+	unsigned int len = 0;
+	int i;
 
-	if ((*s == '\0') || (*accept == '\0'))
-		return len;
-	while (*s && strchr(accept, *s++))
+	while (*s)
 	{
-		len++;
+		for (i = 0; accept[i]; i++)
+		{
+			if (*s == accept[i])
+			{
+				len++;
+				break;
+			}
+		}
+		s++;
 	}
-	return (len);
+	return (i);
 }
