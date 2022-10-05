@@ -3,7 +3,7 @@
  * _strstr - locates a string
  * @haystack: string to be searched
  * @needle: string to be located
- * Retrun: pointer to begin of string
+ * Return: pointer to begin of string
  */
 char *_strstr(char *haystack, char *needle)
 {
@@ -12,19 +12,19 @@ char *_strstr(char *haystack, char *needle)
 	while (haystack[i])
 	{
 		while (needle[x] && haystack[i] == needle[0])
-	{
-		if (haystack[i + x] == needle[x])
-			x++;
+		{
+			if (haystack[i + x] == needle[x])
+				x++;
+			else
+				break;
+		}
+		if (needle[x])
+		{
+			i++;
+			x = 0;
+		}
 		else
-			break;
+			return (haystack + i);
 	}
-	if (needle[x])
-	{
-		i++;
-		x = 0;
-	}
-	else
-		return (haystack + i);
-}
-return (0);
+	return (0);
 }
