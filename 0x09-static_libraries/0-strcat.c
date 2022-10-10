@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * _strcat - function that appends stc string to dest
  * @dest: string to be added

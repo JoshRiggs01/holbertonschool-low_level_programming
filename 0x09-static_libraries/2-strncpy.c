@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * _strncpy - copies and input number of bytes from sting src to dest
  * @dest: where the string copy is stored
