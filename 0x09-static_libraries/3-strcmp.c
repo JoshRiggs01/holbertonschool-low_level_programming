@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * _strcmp - this function compares pointers of strings
  * @s1: this is where first sting is stored
