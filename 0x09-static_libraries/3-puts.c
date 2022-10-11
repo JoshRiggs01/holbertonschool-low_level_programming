@@ -1,12 +1,16 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - this is void
- * description - this is a script that will return zero
- * Return: Always 0 (Success)
- *this is a puts function that returns 0 and prints a given message
-*/
-int main(void)
+ * _puts - function- prints string
+ * @str: declaring str for puts
+ * Return: Always 0
+ */
+void _puts(char *str)
+
 {
-puts("\"Programming is like building a multilingual puzzle");
-return (0);
+        int x;
+        for (x = 0; str[x] != 0; x++)
+        {
+                _putchar(str[x]);
+        }
+        _putchar('\n');
 }
