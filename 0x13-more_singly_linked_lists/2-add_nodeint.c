@@ -2,7 +2,7 @@
 
 /**
  * add_nodeint - add node list
- * @head; pointer to node
+ * @head: pointer to node
  * @n: int
  * Return: new node
  */
