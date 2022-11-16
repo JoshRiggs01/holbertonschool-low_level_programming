@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * free_dlistint - free a list
- * #head: list
+ * @head: list
  *
  * Return: void
  */
