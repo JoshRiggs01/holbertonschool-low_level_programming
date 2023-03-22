@@ -1,1 +1,0 @@
-Read me file for 0x18 doubly linked lists
